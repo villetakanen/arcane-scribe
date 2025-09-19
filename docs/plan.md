@@ -36,19 +36,19 @@ _(Estimated Duration: 3 Weeks | Target End: October 9, 2025)_
 
 ### **Week 1: Setup & PDF Processing**
 
-- [ ] **Task 1.1:** Initialize Git repository and set up the Python project environment (`venv`).
+- [x] **Task 1.1:** Initialize Git repository and set up the Python project environment (`venv`).
     
-- [ ] **Task 1.2:** Write the PDF ingestion script to process all `.pdf` files in a user-specified directory.
+- [x] **Task 1.2:** Write the PDF ingestion script to process all `.pdf` files in a user-specified directory.
     
-- [ ] **Task 1.3:** Integrate `pypdf` for text extraction and metadata capture (filename, page number).
+- [x] **Task 1.3:** Integrate `pypdf` for text extraction and metadata capture (filename, page number).
     
-- [ ] **Task 1.4:** Implement text chunking logic to split extracted text into meaningful, overlapping segments.
+- [x] **Task 1.4:** Implement text chunking logic to split extracted text into meaningful, overlapping segments.
     
-- [ ] **Task 1.5:** Integrate a Sentence-Transformers model (e.g., `bge-small-en-v1.5`) to convert text chunks into vector embeddings.
+- [x] **Task 1.5:** Integrate a Sentence-Transformers model (e.g., `bge-small-en-v1.5`) to convert text chunks into vector embeddings.
     
-- [ ] **Task 1.6:** Set up an embedded ChromaDB instance to store the chunks, embeddings, and source metadata.
+- [x] **Task 1.6:** Set up an embedded ChromaDB instance to store the chunks, embeddings, and source metadata.
     
-- **Milestone 1:** A script that can successfully process a folder of PDFs and save them into a local, persistent vector database.
+- **Milestone 1 (Achieved Sep 19, 2025):** A script that can successfully process a folder of PDFs and save them into a local, persistent vector database.
     
 
 ### **Week 2: RAG Query & Generation**
