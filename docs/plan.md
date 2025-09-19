@@ -53,17 +53,17 @@ _(Estimated Duration: 3 Weeks | Target End: October 9, 2025)_
 
 ### **Week 2: RAG Query & Generation**
 
-- [ ] **Task 2.1:** Implement the query function: take a user's question, embed it using the same model.
+- [x] **Task 2.1:** Implement the query function: take a user's question, embed it using the same model.
     
-- [ ] **Task 2.2:** Perform a similarity search against ChromaDB to retrieve the most relevant text chunks.
+- [x] **Task 2.2:** Perform a similarity search against ChromaDB to retrieve the most relevant text chunks.
     
-- [ ] **Task 2.3:** Integrate `llama-cpp-python` to load and run a quantized Gemma model (GGUF).
+- [x] **Task 2.3:** Integrate `llama-cpp-python` to load and run a quantized Gemma model (GGUF).
     
-- [ ] **Task 2.4:** Develop a robust prompt template that instructs the model to answer based _only_ on the provided context and to cite sources.
+- [x] **Task 2.4:** Develop a robust prompt template that instructs the model to answer based _only_ on the provided context and to cite sources.
     
-- [ ] **Task 2.5:** Generate an answer from the LLM and parse its output.
+- [x] **Task 2.5:** Generate an answer from the LLM and parse its output.
     
-- **Milestone 2:** A command-line tool that accepts a question and returns a well-formatted, cited answer based on the indexed PDFs.
+- **Milestone 2 (Achieved Sep 19, 2025):** A command-line tool that accepts a question and returns a well-formatted, cited answer based on the indexed PDFs.
     
 
 ### **Week 3: Advanced Logic & Refinement**
